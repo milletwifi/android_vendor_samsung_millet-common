@@ -43,13 +43,13 @@ PRODUCT_COPY_FILES += \
 
 # DIAG-Samsung-Modem
 PRODUCT_COPY_FILES += \
-    vendor/samsung/matisse-common/proprietary/etc/Diag_audio.cfg:system/etc/Diag_audio.cfg \
     vendor/samsung/matisse-common/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
     vendor/samsung/matisse-common/proprietary/etc/Diag_gps.cfg:system/etc/Diag_gps.cfg \
     vendor/samsung/matisse-common/proprietary/etc/Diag_volte.cfg:system/etc/Diag_volte.cfg \
     vendor/samsung/matisse-common/proprietary/etc/Diag_zero.cfg:system/etc/Diag_zero.cfg \
     vendor/samsung/matisse-common/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/matisse-common/proprietary/etc/srm.bin:system/etc/srm.bin
+#    vendor/samsung/matisse-common/proprietary/etc/Diag_audio.cfg:system/etc/Diag_audio.cfg \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \

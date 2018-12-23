@@ -331,14 +331,14 @@ PRODUCT_COPY_FILES += \
 
 # Missing Lib by @matteo0026
 PRODUCT_COPY_FILES += \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libdiag.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libdsutils.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libidl.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_cci.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_client_qmux.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_common_so.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libdiag.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_encdec.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmiservices.so
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdsutils.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libidl.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libqmi_cci.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/ libdiag.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so
 
 $(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)

@@ -331,6 +331,7 @@ PRODUCT_COPY_FILES += \
 
 # Missing Lib by @matteo0026
 PRODUCT_COPY_FILES += \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \

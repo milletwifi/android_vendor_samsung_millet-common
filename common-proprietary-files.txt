@@ -319,12 +319,12 @@ lib/drm/libdrmwvmplugin.so:vendor/lib/drm/libdrmwvmplugin.so|3bee766222895f52442
 vendor/lib/mediadrm/libwvdrmengine.so|6bdcc4d59b07ccbdd7b07a99677406ade3d2e232
 
 # Missing Lib by @matteo0026
-vendor/lib/libdiag.so
-vendor/lib/libdsutils.so
-vendor/lib/libidl.so
-vendor/lib/libqmi_cci.so
-vendor/lib/libqmi_client_qmux.so
-vendor/lib/libqmi_common_so.so
-vendor/lib/libdiag.so
-vendor/lib/libqmi_encdec.so
-vendor/lib/libqmiservices.so
+-vendor/lib/libdiag.so
+-vendor/lib/libdsutils.so
+-vendor/lib/libidl.so
+-vendor/lib/libqmi_cci.so
+-vendor/lib/libqmi_client_qmux.so
+-vendor/lib/libqmi_common_so.so
+-vendor/lib/libdiag.so
+-vendor/lib/libqmi_encdec.so
+-vendor/lib/libqmiservices.so

@@ -264,6 +264,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so
 
+# Network
+PRODUCT_COPY_FILES += \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libdatactrl.so:system/vendor/lib/libdatactrl.so
+
 # Perf
 PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/bin/mpdecision:system/bin/mpdecision \

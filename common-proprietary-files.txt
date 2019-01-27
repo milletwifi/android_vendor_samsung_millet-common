@@ -267,6 +267,10 @@ vendor/lib/libmm-color-convertor.so
 vendor/lib/libmmosal.so
 vendor/lib/libSHIMDivxDrm.so
 
+# Network
+vendor/lib/libconnctrl.so
+vendor/lib/libdatactrl.so
+
 # Perf
 bin/mpdecision
 #vendor/lib/libqc-opt.so

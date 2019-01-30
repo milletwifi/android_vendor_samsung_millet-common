@@ -332,3 +332,6 @@ vendor/lib/mediadrm/libwvdrmengine.so|6bdcc4d59b07ccbdd7b07a99677406ade3d2e232
 -vendor/lib/libdiag.so
 -vendor/lib/libqmi_encdec.so
 -vendor/lib/libqmiservices.so
+vendor/lib/libqc-opt.so
+vendor/lib/libqti-iop-client.so
+lib/libyasalgo.so

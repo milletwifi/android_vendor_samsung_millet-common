@@ -345,6 +345,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqc-iop-client.so:system/vendor/lib/libqti-iop-client.so \
+    vendor/samsung/matisse-common/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so
 
 $(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)

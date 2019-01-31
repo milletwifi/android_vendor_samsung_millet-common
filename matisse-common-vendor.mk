@@ -348,7 +348,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
-    vendor/samsung/matisse-common/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so
+    vendor/samsung/matisse-common/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
     vendor/samsung/matisse-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/matisse-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/matisse-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \

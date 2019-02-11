@@ -273,7 +273,7 @@ vendor/lib/libdatactrl.so
 
 # Perf
 bin/mpdecision
-#vendor/lib/libqc-opt.so
+vendor/lib/libqc-opt.so
 vendor/lib/libqti-perfd-client.so
 
 # Radio
@@ -284,7 +284,7 @@ lib/libomission_avoidance.so
 
 # Sensors
 lib/hw/sensors.msm8226.so
-#lib/libyasalgo.so
+lib/libyasalgo.so
 
 # Thermal
 bin/thermal-engine
@@ -329,9 +329,6 @@ vendor/lib/mediadrm/libwvdrmengine.so|6bdcc4d59b07ccbdd7b07a99677406ade3d2e232
 -vendor/lib/libqmi_cci.so
 -vendor/lib/libqmi_client_qmux.so
 -vendor/lib/libqmi_common_so.so
--vendor/lib/libdiag.so
 -vendor/lib/libqmi_encdec.so
 -vendor/lib/libqmiservices.so
-vendor/lib/libqc-opt.so
 vendor/lib/libqti-iop-client.so
-lib/libyasalgo.so

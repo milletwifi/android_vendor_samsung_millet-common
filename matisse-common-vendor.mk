@@ -216,7 +216,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so
 
 # DRM
 PRODUCT_COPY_FILES += \
@@ -235,7 +243,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so
+    vendor/samsung/matisse-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/samsung/matisse-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/samsung/matisse-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so
 
 # Graphics firmware
 PRODUCT_COPY_FILES += \
@@ -272,7 +282,8 @@ PRODUCT_COPY_FILES += \
 # Perf
 PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so
 
 # Radio
 PRODUCT_COPY_FILES += \
@@ -294,11 +305,8 @@ PRODUCT_COPY_FILES += \
 # Time services
 PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
-
-PRODUCT_PACKAGES += \
-    TimeService
-#   libtime_genoff \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so
 
 # WFD
 PRODUCT_COPY_FILES += \
@@ -336,24 +344,12 @@ PRODUCT_COPY_FILES += \
 
 # Missing Lib by @matteo0026
 PRODUCT_COPY_FILES += \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/samsung/matisse-common/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
     vendor/samsung/matisse-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/matisse-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/samsung/matisse-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-	vendor/samsung/matisse-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-	vendor/samsung/matisse-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so
+    vendor/samsung/matisse-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app
 
 $(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)

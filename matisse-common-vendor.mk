@@ -308,6 +308,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so
 
+PRODUCT_PACKAGES += \
+    TimeService
+
 # WFD
 PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \

@@ -274,7 +274,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/samsung/matisse-common/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/samsung/matisse-common/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+    vendor/samsung/matisse-common/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
 
 # Network
 PRODUCT_COPY_FILES += \

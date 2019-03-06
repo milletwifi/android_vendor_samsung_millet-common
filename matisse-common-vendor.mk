@@ -272,7 +272,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/samsung/matisse-common/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/samsung/matisse-common/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
 # Network
 PRODUCT_COPY_FILES += \

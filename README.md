@@ -1,6 +1,6 @@
 # Tab 4 Light Project/Rom
 
-**Device Common repo for Samsung Galaxy Tab 4 8.0 matisselte (milletwifi & milletlte)**
+**Vendor Common repo for Samsung Galaxy Tab 4 8.0 matisselte (milletwifi, milletlte & millet3g)**
 
 |Code Name|Model Number|ScreenSize|Colors|
 |--|--|--|--|

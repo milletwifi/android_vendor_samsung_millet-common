@@ -370,6 +370,6 @@ PRODUCT_COPY_FILES += \
 
 # Missing Lib by @DJABHipHop
 PRODUCT_COPY_FILES += \
-    vendor/samsung/matisse-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so
+    vendor/samsung/millet-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so
 
 $(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)

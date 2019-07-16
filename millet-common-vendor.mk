@@ -368,4 +368,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/millet-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/millet-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app
 
+# Missing Lib by @DJABHipHop
+PRODUCT_COPY_FILES += \
+    vendor/samsung/matisse-common/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so
+
 $(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)

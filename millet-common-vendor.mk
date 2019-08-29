@@ -189,6 +189,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_imx219_preview.so:system/vendor/lib/libchromatix_imx219_preview.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:system/vendor/lib/libchromatix_imx219_snapshot.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_imx219_zslshot.so:system/vendor/lib/libchromatix_imx219_zslshot.so \
+	vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_common.so:system/vendor/lib/libchromatix_s5k6a3yx_default_video.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_preview.so:system/vendor/lib/libchromatix_s5k5e3yx_preview.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_snapshot.so:system/vendor/lib/libchromatix_s5k5e3yx_snapshot.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_video.so:system/vendor/lib/libchromatix_s5k5e3yx_video.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_zslshot.so:system/vendor/lib/libchromatix_s5k5e3yx_zslshot.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_common.so:system/vendor/lib/libchromatix_s5k6a3yx_common.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_default_video.so:system/vendor/lib/libchromatix_s5k6a3yx_default_video.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_preview.so:system/vendor/lib/libchromatix_s5k6a3yx_preview.so \

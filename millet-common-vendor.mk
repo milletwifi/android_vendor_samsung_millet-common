@@ -29,8 +29,8 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-    vendor/samsung/millet-common/proprietary/lib/libacdbmapper.so:vendor/lib/libacdbmapper.so \
-	vendor/samsung/millet-common/proprietary/lib/libaudioalsa.so:vendor/lib/libaudioalsa.so \
+    vendor/samsung/millet-common/proprietary/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+	vendor/samsung/millet-common/proprietary/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
 	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
 	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/General_cal.acdb:system/etc/General_cal.acdb \
 	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -38,9 +38,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
 	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Headset_cal.acdb:system/etc/Headset_cal.acdb \
 	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-	vendor/samsung/millet-common/proprietary/lib/soundfx/libqcvirt.so:vendor/lib/soundfx/libqcvirt.so \
-	vendor/samsung/millet-common/proprietary/lib/soundfx/libqcreverb.so:vendor/lib/soundfx/libqcreverb.so \
-	vendor/samsung/millet-common/proprietary/lib/soundfx/libqcbassboost.so:vendor/lib/soundfx/libqcbassboost.so \
+	vendor/samsung/millet-common/proprietary/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+	vendor/samsung/millet-common/proprietary/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+	vendor/samsung/millet-common/proprietary/lib/soundfx/libqcbassboost.sosystem/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \

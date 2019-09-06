@@ -30,17 +30,17 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_COPY_FILES += \
     vendor/samsung/millet-common/proprietary/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
-	vendor/samsung/millet-common/proprietary/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/General_cal.acdb:system/etc/General_cal.acdb \
-	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Global_cal.acdb:system/etc/Global_cal.acdb \
-	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-	vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-	vendor/samsung/millet-common/proprietary/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-	vendor/samsung/millet-common/proprietary/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-	vendor/samsung/millet-common/proprietary/lib/soundfx/libqcbassboost.sosystem/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/samsung/millet-common/proprietary/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/General_cal.acdb:system/etc/General_cal.acdb \
+    vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Global_cal.acdb:system/etc/Global_cal.acdb \
+    vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Handset_cal.acdb:system/etc/Handset_cal.acdb \
+    vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
+    vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/samsung/millet-common/proprietary/etc/acdbdata/STOCK/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/samsung/millet-common/proprietary/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/samsung/millet-common/proprietary/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    vendor/samsung/millet-common/proprietary/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
@@ -189,7 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_imx219_preview.so:system/vendor/lib/libchromatix_imx219_preview.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:system/vendor/lib/libchromatix_imx219_snapshot.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_imx219_zslshot.so:system/vendor/lib/libchromatix_imx219_zslshot.so \
-	vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_common.so:system/vendor/lib/libchromatix_s5k5e3yx_common.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_common.so:system/vendor/lib/libchromatix_s5k5e3yx_common.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_preview.so:system/vendor/lib/libchromatix_s5k5e3yx_preview.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_snapshot.so:system/vendor/lib/libchromatix_s5k5e3yx_snapshot.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_video.so:system/vendor/lib/libchromatix_s5k5e3yx_video.so \
